@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/StreamingWebserver">
+        <file>htdocs/index.html</file>
+        <file>htdocs/css/style.css</file>
+        <file>htdocs/js/script.js</file>
+    </qresource>
+</RCC>

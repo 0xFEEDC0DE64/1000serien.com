@@ -10,6 +10,8 @@ HEADERS += streamingwebserver.h
 SOURCES += main.cpp \
            streamingwebserver.cpp
 
+RESOURCES += resources.qrc
+
 OTHER_FILES += .dockerignore \
                Dockerfile
 
