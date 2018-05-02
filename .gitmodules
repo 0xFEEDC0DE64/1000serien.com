@@ -1,0 +1,3 @@
+[submodule "QtWebserver"]
+	path = QtWebserver
+	url = https://github.com/0xFEEDC0DE64/QtWebserver.git
