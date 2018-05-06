@@ -19,9 +19,9 @@ void StreamingWebserver::handleRequest(HttpClientConnection *connection, const H
     response.headers.insert(QStringLiteral("Server"), QStringLiteral("Hatschi Server 1.0"));
     response.headers.insert(QStringLiteral("Content-Type"), QStringLiteral("text/html"));
 
-    auto path = QStringLiteral(":/StreamingWebserver/htdocs") %
-                QDir::separator() %
-                (request.path == QStringLiteral("/") ? QStringLiteral("index.html") : request.path);
+    QString path = QStringLiteral(":/StreamingWebserver/htdocs") %
+                   QDir::separator() %
+                   (request.path == QStringLiteral("/") ? QStringLiteral("index.html") : request.path);
 
     qDebug() << request.path << path;
 
